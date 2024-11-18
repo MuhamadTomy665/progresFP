@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar-header h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.user-info a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.recent-activities ul {
+    list-style-type: none;
+}
+
+.recent-activities ul li {
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}

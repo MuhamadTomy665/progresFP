@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar-header h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.user-info form {
+    margin: 0;
+}
+
+.user-info span {
+    font-size: 16px;
+}
+
+.user-info button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-info button:hover {
+    background-color: #0056b3;
+}
+
+.ticket-booking form {
+    margin-bottom: 30px;
+}
+
+.ticket-booking label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.ticket-booking input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ticket-booking button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.ticket-booking button:hover {
+    background-color: #0056b3;
+}
+
+.my-tickets table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-tickets th, .my-tickets td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.my-tickets th {
+    background-color: #f1f1f1;
+}
+
+.my-tickets tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.my-tickets tr:hover {
+    background-color: #f1f1f1;
+}
